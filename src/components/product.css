@@ -1,0 +1,11 @@
+.each-product img {
+  width: 10em;
+  height: 10em;
+  margin: auto;
+}
+.each-product {
+  margin: auto;
+  text-align: center;
+  height: 30em;
+  width: 20em;
+}

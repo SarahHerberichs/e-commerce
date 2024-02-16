@@ -1,0 +1,25 @@
+.basket-head {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.basket-head button {
+  align-self: flex-end;
+}
+.basket-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.basket-container div {
+  width: 80%;
+  margin: auto;
+}
+
+.basket-container button {
+  display: block;
+  margin: auto;
+  margin-bottom: 1em;
+}

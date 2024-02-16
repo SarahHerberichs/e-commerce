@@ -1,0 +1,43 @@
+header {
+  width: 100wv;
+  background-color: rgb(232, 214, 51);
+  padding: 1em;
+}
+a {
+  color: black;
+  margin-left: 2em;
+}
+.nav-links {
+  display: none; /* Cacher les liens de navigation par défaut */
+}
+
+.nav-links.active {
+  display: block; /* Afficher les liens de navigation lorsque le menu est ouvert */
+}
+
+.nav-links a {
+  display: block; /* Afficher chaque lien sur une ligne séparée */
+  color: #fff; /* Couleur du texte */
+  text-decoration: none; /* Enlever les soulignements des liens */
+  margin-bottom: 10px; /* Espacement entre les liens */
+}
+
+.menu-icon {
+  display: block; /* Afficher le menu burger uniquement sur les écrans mobiles */
+  cursor: pointer; /* Changer le curseur en pointer au survol */
+  color: #fff; /* Couleur du texte */
+  width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none; /* Cacher le menu burger sur les écrans plus larges */
+  }
+
+  .nav-links {
+    display: block; /* Afficher les liens de navigation sur les écrans plus larges */
+  }
+  .nav-links a {
+    display: inline-block;
+  }
+}
